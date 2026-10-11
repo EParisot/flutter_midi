@@ -5,6 +5,9 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+		maven {
+			url = uri("https://jitpack.io")
+		}
     }
 
     dependencies {
@@ -16,6 +19,9 @@ rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
+		maven {
+			url = uri("https://jitpack.io")
+		}
     }
 }
 
@@ -37,5 +43,5 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.appleeducate:MidiDriver-Android-SF2:1.0'
+    implementation 'com.github.appleeducate:mididriver-android-sf2:1.1'
 }
