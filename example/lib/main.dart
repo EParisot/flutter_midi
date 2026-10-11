@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
 
   void load(String asset) async {
     print('Loading File...');
-    _flutterMidi.unmute();
+    //_flutterMidi.unmute();
     ByteData _byte = await rootBundle.load(asset);
     //assets/sf2/SmallTimGM6mb.sf2
     //assets/sf2/Piano.SF2
